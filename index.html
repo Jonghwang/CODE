@@ -1,1 +1,73 @@
-<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><title>Programming Wiki</title><link rel="stylesheet" href="css/docs.css"></head><body><div class="container"><div class="card"><h1 class="title">💻 Programming Wiki</h1><ul><li><a href="docs/html.html">HTML</a></li><li><a href="docs/css.html">CSS</a></li><li><a href="docs/javascript.html">JavaScript</a></li><li><a href="docs/python.html">Python</a></li><li><a href="docs/git.html">Git</a></li></ul></div></div></body></html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Upgrade UI</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.card {
+  width: 320px;
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  background: white;
+  color: #5a3fc0;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: #f2f2f2;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <h1>업그레이드 UI</h1>
+  <p>이제 좀 있어 보이는 디자인</p>
+  <button onclick="alert('버튼 눌림')">눌러보기</button>
+</div>
+
+</body>
+</html>
